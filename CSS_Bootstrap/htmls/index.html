@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- navibar -->
+    <nav class="navbar navbar-expand-md fixed-top nevbar-shring text-uppercase bg-secondary " id="mainNav">
+        <div class="brand navcon">
+            <a class="navbar-brand text-white fw-bold " href="#page-top">Ritik</a>
+        </div>
+        <div class="btn-group">
+            <button type="button" class="btn bg-primary">
+                Dropdown
+            </button>
+            <button type="button" class="btn bg-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"
+                aria-expanded="false">
+            </button>
+            <ul class="dropdown-menu">
+                <li class="dropdown-item">Test1</li>
+                <li class="dropdown-item">Test2</li>
+                <li class="dropdown-item">Test3</li>
+            </ul>
+        </div>
+        <button type="button" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#offcan">
+            offcanvas
+        </button>
+        <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class=" collapse navbar-collapse navlink" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto text-white fw-bold nav nav-tabs me-4">
+                <!-- <li class="navbar-item"><a href="" class="text-white">Portfolio</a></li> -->
+                <li class="navbar-item"><a href="#" class="text-white nav-link">Head</a></li>
+                <li class="navbar-item"><a href="#prd" class="text-white nav-link">Products</a></li>
+            </ul>
+            <div>
+                <i class="fa-solid fa-cart-plus me-5 cart position-relative"> <span
+                        class="badge position-absolute top-0 start-100 translate-middle bg-warning rounded-pill bdg">
+                        2
+                    </span></i>
+            </div>
+        </div>
+    </nav>
+    <!-- Header -->
+
+    <div id="carousel" class="carousel slide car" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"
+                aria-current="true"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../image/Screenshot 2022-12-14 124118.png" class="w-100" height="570px" alt="..."
+                    data-bs-interval="1">
+            </div>
+            <div class="carousel-item">
+                <img src="../image/Screenshot 2022-12-14 124159.png" class="w-100" height="570px" alt="... "
+                    data-bs-interval="1">
+            </div>
+            <div class="carousel-item">
+                <img src="../image/Screenshot 2022-12-14 124220.png" class="w-100" height="570px" alt="..."
+                    data-bs-interval="1">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </div>
+
+    <div class="d-md-flex mt-2" id="prd">
+        <!-- <div class="col-md-4">
+            <div class="card ">
+                <div class="card-header">
+                    <h2 class="text-success">certificate in java</h2>
+                </div>
+                <img src="image/certificate-java.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <p>Complete the an learning program in java by sololearn. learn many concepts in java on this
+                        program. Some of them is mansion below</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Basic Concepts</li>
+                    <li class="list-group-item">Conditions and Loops</li>
+                    <li class="list-group-item">Arrays</li>
+                    <li class="list-group-item">Classes and Object</li>
+                    <li class="list-group-item">More on Classes</li>
+                    <li class="list-group-item">Exception, List, Therds & files</li>
+                </ul>
+                <div class="card-footer">
+                    <a role="button" class="btn btn-success me-4"
+                        href="https://www.sololearn.com/certificates/CT-QSM8NMU8">View Certificate</a>
+                    <a href="https://www.sololearn.com/" role="butten" class="btn btn-info">Visit Site</a>
+                </div>
+            </div>
+        </div> -->
+        <!-- Fillters -->
+        <div class="col-md-4 col-lg-3 h-25 ms-2 border border-dark rounded-3 py-3 px-3">
+            <h2 class="text-center">Fillters</h2>
+            <div class="form-check">
+                <h5>Store By</h5>
+                <li class="cb"><input type="radio" class="form-check-input" name="sb" id="1"> <label for="1"
+                        class="form-check-label">Price:Low To High</label></li>
+                <li class="cb"><input type="radio" class="form-check-input" name="sb" id="2"> <label for="2"
+                        class="form-check-label">Price:High to Low</label></li>
+                <li class="cb"><input type="radio" class="form-check-input" name="sb" id="3"> <label for="3"
+                        class="form-check-label">Featured</label></li>
+                <li class="cb"><input type="radio" class="form-check-input" name="sb" id="4"> <label for="4"
+                        class="form-check-label">Customer Review</label></li>
+                <li class="cb"><input type="radio" class="form-check-input" name="sb" id="5"> <label for="5"
+                        class="form-check-label">Newest Arrivals</label></li>
+            </div>
+            <button type="button" class="btn w-75 text-start" data-bs-toggle="collapse" aria-expanded="false"
+                data-bs-target="#brand" aria-controls="brand">
+                <h5>Brand</h5>
+            </button>
+            <div class="collapse" id="brand">
+                <li class="cb"><input type="checkbox" class="form-check-input" name="brand" id="hp"> <label
+                        class="form-check-label" for="hp">HP</label></li>
+                <li class="cb"><input type="checkbox" class="form-check-input" name="brand" id="dell"> <label
+                        class="form-check-label" for="dell">Dell</label></li>
+                <li class="cb"><input type="checkbox" class="form-check-input" name="brand" id="lenovo"> <label
+                        class="form-check-label" for="lenovo">Lenovo</label></li>
+                <li class="cb"><input type="checkbox" class="form-check-input" name="brand" id="Sandisk"> <label
+                        class="form-check-label" for="Sandisk">Sandisk</label></li>
+                <li class="cb"><input type="checkbox" class="form-check-input" name="brand" id="samsung"> <label
+                        class="form-check-label" for="samsung">Samsung</label></li>
+            </div>
+            <button type="button" class="btn w-75 text-start" data-bs-toggle="collapse" aria-expanded="false"
+                data-bs-target="#price" aria-controls="price">
+                <h5>Price Range</h5>
+            </button>
+            <div class="collapse" id="price">
+                <li class="cb"><input type="checkbox" class="form-check-input" name="brand" id="0"> <label
+                        class="form-check-label" for="0">Less then 200</label></li>
+                <li class="cb"><input type="checkbox" class="form-check-input" name="brand" id="1"> <label
+                        class="form-check-label" for="1">200-500</label></li>
+                <li class="cb"><input type="checkbox" class="form-check-input" name="brand" id="2"> <label
+                        class="form-check-label" for="2">501-1000</label></li>
+                <li class="cb"><input type="checkbox" class="form-check-input" name="brand" id="3"> <label
+                        class="form-check-label" for="3">1001-1500</label></li>
+                <li class="cb"><input type="checkbox" class="form-check-input" name="brand" id="4"> <label
+                        class="form-check-label" for="4">1501-2000</label></li>
+                <li class="cb"><input type="checkbox" class="form-check-input" name="brand" id="5"> <label
+                        class="form-check-label" for="5">more then 2000</label></li>
+            </div>
+            <!-- Modal Start -->
+            <div class="modal fade secondary" id="mdl" tabindex="-1" aria-hidden="true" style="display: none;">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-titel fs-5">You found it!</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <h2>These page is Makeed by Ritik</h2>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mdl">
+                Woooo!
+            </button>
+            <!-- Modal end -->
+        </div>
+        <!-- products -->
+        <div class="col-md-4 col-lg-3 h50 ms-2 border border-dark rounded-3 py-3 px-3">
+            <img src="../image/pandrive.jpg" width="150VW" class="" alt="">
+            <table class="table">
+                <TH>16 gb Sandisk pandrive</TH>
+                <th class="price"><span class="price-symbel"> <sup>₹</sup></span>300</th>
+                <tbody>
+                    <tr>
+                        <td>Brand</td>
+                        <td>Sandisk</td>
+                    </tr>
+                    <tr>
+                        <td>Memory Storage Capacity</td>
+                        <td>16gb</td>
+                    </tr>
+                    <tr>
+                        <td>Hardware Interface</td>
+                        <td>USB 2.0</td>
+                    </tr>
+                    <tr>
+                        <td>Bolour</td>
+                        <td>Black</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button type="button" class="btn btn-warning mb-1"> <i class="fa-solid fa-cart-plus"></i> ADD TO
+                CART</button>
+            <button type="button" class="btn btn-warning mb-1 ms-3"> <i class="fa-solid fa-bag-shopping"></i> BAY
+                NOW</button>
+        </div>
+        <div class="col-md-4 col-lg-3 h50 ms-2 border border-dark rounded-3 py-3 px-3">
+            <img src="../image/mouse.jpg" width="170VW" class="" alt="">
+            <table class="table">
+                <TH>Dell MS116 1000Dpi USB Wired Optical Mouse, Led Tracking, Scrolling Wheel, Plug and Play</TH>
+                <th class="price"><span class="price-symbel"> <sup>₹</sup></span>300</th>
+                <tbody>
+                    <tr>
+                        <td>Brand</td>
+                        <td>Dell</td>
+                    </tr>
+                    <tr>
+                        <td>Movement Detection Technology</td>
+                        <td>Optical</td>
+                    </tr>
+                    <tr>
+                        <td>Hardware Interface</td>
+                        <td>USB</td>
+                    </tr>
+                    <tr>
+                        <td>Bolour</td>
+                        <td>Black</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button type="button" class="btn btn-warning mb-1" data-bs-toggle="popover" data-bs-title="WOoO!"
+                data-bs-content="You are click on the by button"> <i class="fa-solid fa-cart-plus"></i> ADD TO
+                CART</button>
+            <button type="button" class="btn btn-warning mb-1 ms-3"> <i class="fa-solid fa-bag-shopping"></i> BAY
+                NOW</button>
+        </div>
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcan"
+            aria-labelledby="Enable both scrolling & backdrop">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="Enable both scrolling & backdrop">Backdrop with scrolling</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <p>Try scrolling the rest of the page to see this option in action.</p>
+                <ul class="list-group">
+                    <li class="list-group-item">Accordion</li>
+                    <li class="list-group-item">Alert</li>
+                    <li class="list-group-item">Badge</li>
+                    <li class="list-group-item">Breadcrumb</li>
+                    <li class="list-group-item">Button</li>
+                    <li class="list-group-item">Button Group</li>
+                    <li class="list-group-item">Card</li>
+                    <li class="list-group-item">Carousel</li>
+                    <li class="list-group-item">Close Button</li>
+                    <li class="list-group-item">Collapse</li>
+                    <li class="list-group-item">Dropdown</li>
+                    <li class="list-group-item">List Group</li>
+                    <li class="list-group-item">Modal</li>
+                    <li class="list-group-item">Navbar</li>
+                    <li class="list-group-item">Navs&tabs</li>
+                    <li class="list-group-item">Offcanvas</li>
+                </ul>
+            </div>
+        </div>
+        <!-- <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcan">
+            <div class="offcanvas-header">
+                <h3 class="offcanvas-title">Well Done</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                <div class="offcanvas-body">
+                    <div>
+                        You are succesfully Complete those topics of BOOTSTRAP
+                        <ul class="list-group">
+                            <li class="list-group-item">Accordion</li>
+                            <li class="list-group-item">Alert</li>
+                            <li class="list-group-item">Badge</li>
+                            <li class="list-group-item">Breadcrumb</li>
+                            <li class="list-group-item">Button</li>
+                            <li class="list-group-item">Button Group</li>
+                            <li class="list-group-item">Card</li>
+                            <li class="list-group-item">Carousel</li>
+                            <li class="list-group-item">Close Button</li>
+                            <li class="list-group-item">Collapse</li>
+                            <li class="list-group-item">Dropdown</li>
+                            <li class="list-group-item">List Group</li>
+                            <li class="list-group-item">Modal</li>
+                            <li class="list-group-item">Navbar</li>
+                            <li class="list-group-item">Navs&tabs</li>
+                            <li class="list-group-item">Offcanvas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <nav aria-label="Page navigation">
+        <ul class="pagination justify-content-center">
+            <li class="page-item disabled">
+                <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                    <span class="sr-only">Previous</span>
+                </a>
+            </li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="http://127.0.0.1:5500/CSS_Bootstrap/htmls/grid.html">2</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="http://127.0.0.1:5500/CSS_Bootstrap/htmls/grid.html" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="progress col-8 m-auto" style="height: 30px;">
+        <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuemin="0" aria-valuemax="100">25</div>
+    </div>
+</body>
+
+</html>

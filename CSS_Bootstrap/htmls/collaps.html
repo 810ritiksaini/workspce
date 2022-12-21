@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>collapse</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="/css/collaps.css">
+</head>
+
+<body>
+    <div>
+        <Span class="good">Collapes example</Span>
+        <div class="align-item-center container">
+            <button type="button" class="btn btn-dark a" data-bs-toggle="collapse" data-bs-target=".div2">Open</button>
+        </div>
+        <div class="collapse collapse-horizontal div2" id="div1">
+            <span class="fs-1 text-center">Opend</span>
+        </div>
+    </div>
+    <div>
+        <div class="accordion accordion" id="exp">
+            <div class=" accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                </h2>
+                <button class="accordion-button fs-3 collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#loc1" aria-controls="collapseOne">
+                    click hear
+                </button>
+
+                <div id="loc1" class="collapse accordion-collapse show" data-bs-parent="#exp">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum distinctio porro provident,
+                        debitis
+                        ratione perspiciatis eius explicabo reprehenderit magni corrupti facilis, ea ipsum perferendis
+                        consequatur recusandae molestias! Voluptatum laboriosam maxime commodi non dolorum neque
+                        eligendi
+                        nemo
+                        eius unde ipsum asperiores dignissimos quis officiis, vero doloremque aliquam in saepe corrupti
+                        pariatur, numquam quia iusto. Eaque corporis quod vero repellendus dolor labore iure commodi
+                        molestiae
+                        ipsum?
+                    </div>
+                </div>
+            </div>
+            <div class=" accordion-item" id="exp">
+                <h2 class="accordion-header" id="headingTwo">
+
+                    <button class="accordion-button fs-3 collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#loc2" aria-controls="collapseOne">
+                        click hear
+                    </button>
+                </h2>
+                <div id="loc2" class="collapse accordion-collapse" data-bs-parent="#exp">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.
+                        Nulla
+                        temporibus aspernatur vel rem, molestiae atque aliquid animi debitis, iure iste excepturi sequi
+                        consequuntur eius. Esse inventore nostrum a ex, mollitia distinctio optio quam temporibus! Cum
+                        soluta
+                        illo doloremque excepturi vero.</div>
+                </div>
+            </div>
+            <div class=" accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button fs-3 collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#loc3" aria-controls="collapseOne">
+                        Click hear
+                    </button>
+                </h2>
+                <div id="loc3" class="collapse accordion-collapse" data-bs-parent="#exp">
+                    <div class="accordion-body">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit.
+                        Dolorem, commodi natus! Necessitatibus, iusto quod! Voluptates, enim. Ducimus esse ab temporibus
+                        ex
+                        aliquid omnis unde? Porro laboriosam deserunt qui quibusdam expedita. Velit doloremque rem
+                        recusandae
+                        quisquam, dolor sed commodi iure? Eum tempore iure eaque animi perferendis dolorum?</div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

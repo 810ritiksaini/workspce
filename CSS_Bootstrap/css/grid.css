@@ -1,0 +1,13 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.boder{
+    border: 1px solid black;
+}
+table {
+    text-shadow: 5px black;
+}
+th{
+    text-shadow: 5px  black;
+}

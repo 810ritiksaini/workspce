@@ -1,0 +1,14 @@
+.test1{
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+.test{
+    height: 7em;
+    width: 8em;
+    border: 1px solid black;
+}
+.test2{
+    color: blue-500;
+}

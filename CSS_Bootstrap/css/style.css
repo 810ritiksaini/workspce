@@ -1,0 +1,40 @@
+.brand {
+    margin-left: 5em;
+}
+
+.navcon a {
+    font-size: xx-large;
+}
+
+.text-white {
+    color: white;
+    text-decoration: none;
+}
+
+.navlink ul {
+    width: 14em;
+    gap: 50px;
+}
+.car{
+    margin-top: 4rem;
+}
+.crd{
+    width: 25VW;
+}
+.price-symbel{
+    font-weight: normal;
+    
+}
+.price{
+    font-size: xx-large;
+}
+.cart{
+    font-size: larger;
+}
+.cb{
+    text-decoration: none;
+    list-style-type: none;
+}
+.h50{
+    height: 750px;
+}

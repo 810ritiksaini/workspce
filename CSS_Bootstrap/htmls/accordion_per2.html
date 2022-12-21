@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>accordion</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="accordion" id="parant">
+        <div class="accordion-item">
+            <button class="accordion-button fs-3 collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#loc1">
+                Click Hear
+            </button>
+            <div id="loc1" class="accordion accordion-collapse collapse" data-bs-parent="#parant">
+                <div class="accordion-body">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo nihil doloremque laboriosam nulla
+                    inventore facilis exercitationem delectus nesciunt architecto magni.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <button class="accordion-button fs collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#loc2">
+                Click Hear
+            </button>
+            <div id="loc2" class="accordion accordion-collapsed collapse" data-bs-parent="#parant">
+                <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi blanditiis temporibus animi, iusto ex
+                    accusantium tenetur ad ducimus, exercitationem perferendis reiciendis quisquam praesentium fugiat
+                    incidunt atque rem autem sunt. Iste animi beatae molestiae culpa hic tempore debitis reprehenderit
+                    mollitia impedit.
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
